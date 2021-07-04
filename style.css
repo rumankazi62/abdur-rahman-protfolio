@@ -1,6 +1,56 @@
 body{
   font-family: 'Noto Sans', sans-serif;
+  margin: 0;
 }
+.head-container{
+  display: flex;
+  background-image: url(image/top-banner.png);
+  background-repeat: no-repeat;
+  background-position: cover;
+}
+
 #name-color{
   color:orange;
+
+}
+.container{
+  width: 40%;
+  padding: 5%;
+  text-align: center;
+}
+.container p{
+  text-align: justify;
+  margin-bottom: 40px;
+  line-height: 30px;
+}
+.container img{
+  width: 100%;
+  margin-bottom: 30px;
+}
+.container h1{
+  font-size: 50px;
+}
+.container h3{
+  margin: 30px 0px;
+  font-size: 20px;
+}
+#button{
+  text-transform: uppercase;
+  background-image: linear-gradient(orange, rgb(255, 94, 0));
+  text-decoration: none;
+  border-radius: 7%;
+  color:rgb(255, 255, 255);
+  font-size: 18px;
+  padding: 10px 20px;
+  box-shadow: 1px 1px 16px rgb(238, 255, 0);
+}
+#button-2{
+  text-transform: uppercase;
+  background-image: linear-gradient(rgb(89, 0, 255), rgb(139, 68, 255));
+  text-decoration: none;
+  border-radius: 7%;
+  color:rgb(255, 255, 255);
+  font-size: 18px;
+  padding: 10px 60px;
+  box-shadow: 1px 1px 16px rgb(16, 255, 8);
 }
